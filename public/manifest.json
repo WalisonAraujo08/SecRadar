@@ -1,0 +1,21 @@
+{
+  "name": "SecRadar Azuron",
+  "short_name": "SecRadar",
+  "description": "Monitoramento de vazamento de dados em tempo real",
+  "start_url": "/painel",
+  "display": "standalone",
+  "background_color": "#02191b",
+  "theme_color": "#02191b",
+  "orientation": "any",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Dashboard", "url": "/painel", "description": "Painel principal" },
+    { "name": "Varredura", "url": "/painel/varredura", "description": "Iniciar varredura" },
+    { "name": "Alertas",   "url": "/painel/alertas",  "description": "Ver alertas" }
+  ],
+  "categories": ["security", "utilities"],
+  "lang": "pt-BR"
+}
